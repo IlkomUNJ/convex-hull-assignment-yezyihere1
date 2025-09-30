@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f53d5b11e50a3106d187.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ConvexHullSim",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ConvexHullSim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConvexHullSim-Debug-5515c8d1fb09a1829512.json",
+					"name" : "ConvexHullSim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ConvexHullSim_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConvexHullSim_autogen-Debug-9ed0f605b2f3193c8aaf.json",
+					"name" : "ConvexHullSim_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ConvexHullSim_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConvexHullSim_autogen_timestamp_deps-Debug-8c8c2faef96750f57376.json",
+					"name" : "ConvexHullSim_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/rajan/OneDrive/Dokumen/ConvexHullSim/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/rajan/OneDrive/Dokumen/ConvexHullSim"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
