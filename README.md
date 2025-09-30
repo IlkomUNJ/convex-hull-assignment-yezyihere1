@@ -1,12 +1,41 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/1PRAkQnI)
 # Identity
-Name : ................
+Name : Raja Nazwa Anugerah Pratama
 
-# AI usage
-Explain how you use the AI to solve the assignment. Put all ***your used queries*** in this section & what kind of AI are you using. Declare not using AI if you didn't do this.  
+---
 
-# Collaboration usage
-Explain how you are ***using others*** to complete the assignment in this section. Are they simply copying, learn the ideas, learn how to adapt the AI or anything involving the process. State the people if any & Please be elaborate. Declare self tought if you solved this by yourself. 
+# AI Usage
 
+What kind of AI are you using : Saya menggunakan **Google Gemini** (Large Language Model).
+
+Explain how you use the AI to solve the assignment:
+Saya menggunakan AI sebagai asisten *scaffolding* dan validasi struktur *User Interface* dalam lingkungan pengembangan Qt. Penggunaan AI secara spesifik hanya meliputi aspek **UI/Framework** yang berfungsi sebagai kerangka aplikasi:
+
+1.  **Struktur dan Layout:** Memperoleh panduan kode untuk membangun hierarki UI (`QMainWindow` / `QVBoxLayout`) yang memisahkan kanvas dan tombol dengan benar sesuai dengan diagram tugas.
+2.  **Event Handling:** Mendapatkan *template* kode untuk penanganan *input* mouse pada kanvas dan koneksi *signal-slot* tombol.
+3.  **Validasi Fungsi Framework:** Memeriksa *function signature* yang diperlukan untuk menjembatani *class* UI dengan *class* algoritma.
+4.  **Debugging Visual:** Menyelesaikan masalah warna latar belakang kanvas yang muncul hitam karena tema gelap sistem.
+
+Used Queries (Fokus pada UI dan Scaffolding):
+
+1.  "Bagaimana cara merancang struktur UI Qt yang paling optimal (dengan QMainWindow, QWidget, dan Layouts) untuk membagi area gambar dan area tombol sesuai?"
+2.  "Tolong jelaskan *base class* yang paling tepat untuk `MainWindow`, `DrawingWidget`, dan *class* khusus algoritma (`ConvexHull`)."
+3.  "Mengapa *rendering* latar belakang kanvas saya menjadi hitam? Bagaimana cara menerapkan *fixed white background* secara paksa menggunakan `QPalette` di konstruktor `DrawingWidget`?"
+4.  "Saya perlu membuat kerangka kode untuk `DrawingWidget` yang bisa mengimplementasikan *event* klik mouse untuk menangkap input koordinat dan menggambar titik-titik tersebut."
+
+---
+
+# Collaboration Usage
+
+Declare self taught if you solved this by yourself:
+**Self Taught** (Saya mengerjakan tugas ini secara mandiri).
+
+Explain how you are using others to complete the assignment in this section:
+Saya tidak berkolaborasi dengan individu lain. Semua bantuan eksternal yang saya terima berasal dari alat kecerdasan buatan (AI) Gemini, yang saya gunakan sebagai referensi *scaffolding* Qt.
+
+Saya menggunakan *template* kode yang dihasilkan AI hanya sebagai kerangka dasar (*boilerplate*) untuk *setup* UI (*learn the ideas*). Namun, implementasi logika inti dan semua optimasi algoritma untuk Slow Convex Hull dan Fast Convex Hull, termasuk penentuan di mana variabel *iterations* harus dihitung, sepenuhnya saya kembangkan secara mandiri berdasarkan pemahaman saya terhadap materi kuliah.
+
+---
 # Commit Rules
 Use .gitignore to stripe any binaries from the resulting build before commit.  If you cloned directly from the template, you are safe. 
 
